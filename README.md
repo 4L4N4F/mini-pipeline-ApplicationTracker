@@ -10,7 +10,7 @@ A personal data project designed to track and analyze job applications. This pro
 <br>
 ⚙️ ETL workflow
 This project follows a lightweight ETL (Extract, Transform, Load) pipeline built entirely with no-code and low-code tools:
-
+<br>
 | Stage | Description | Tool |
 |--------|--------------|------|
 | **Extract** | Job application data is collected via a **Google Form**. | Google Forms |
@@ -19,13 +19,12 @@ This project follows a lightweight ETL (Extract, Transform, Load) pipeline built
 | **Visualize** | The clean dataset is connected to a **Looker Studio dashboard** for interactive analysis. | Looker Studio |
 <br>
 <br>
-🛠️ Tech Stack
+🛠️ Tech Stack<br>
 - Google Forms (data collection)<br>
 - Google Sheets (storage & cleaning)<br>
 - Google Apps Script (automation)<br>
 - Looker Studio (visualization)<br>
 <br>
 <br>
-🪜 Next Steps
+🪜 Next Steps<br>
 - Add AI-based parsing of job descriptions.
-- Add AI-based parsing of job descriptions  
