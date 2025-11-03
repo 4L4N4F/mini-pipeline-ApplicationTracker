@@ -32,7 +32,4 @@ This project follows a lightweight ETL (Extract, Transform, Load) pipeline built
 ## 🪜 Next Steps
 
 - Add AI-based parsing of job descriptions  
-- Google Apps Script (automation)  
-- Looker Studio (visualization)  
-- Add AI-based parsing of job descriptions.
 
