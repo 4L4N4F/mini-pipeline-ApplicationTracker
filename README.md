@@ -20,6 +20,14 @@ This project follows a lightweight ETL (Extract, Transform, Load) pipeline built
 | **Load** | A Google Apps Script updates the dataset automatically without overwriting existing records. | Google Apps Script |
 | **Visualize** | The clean dataset is connected to a Looker Studio dashboard for interactive analysis. | Looker Studio |
 
+### 🧭 ETL Pipeline Overview
+
+```mermaid
+graph LR
+    A[Google Form 📥<br>Data Collection] --> B[Google Sheets 🧹<br>Transformation & Storage]
+    B --> C[Google Apps Script ⚙️<br>Automation & Updates]
+    C --> D[Looker Studio 📊<br>Visualization & Analysis]
+
 
 ## 🛠️ Tech Stack
 
