@@ -31,9 +31,7 @@ This project follows a lightweight ETL (Extract, Transform, Load) pipeline built
 
 ## 🧩 Data Source & Structure
 
-The dataset was built from real job postings anonymized to remove all personally identifiable or company-specific data.  
-
-It is organized in the `/data` folder:  
+The dataset was built from real job postings anonymized to remove all personally identifiable or company-specific data. It is organized in the `/data` folder:  
 - `sample/` — example CSVs used for testing and prototyping  
 - `dictionary/` — metadata and codebooks documenting all variables in the dataset
 
@@ -42,7 +40,7 @@ Updates are automated through a Google Apps Script (`/scripts/update_dataset.gs`
 
 ## 📊 Dashboard & Analysis
 
-A Looker Studio dashboard was developed to visualize and analyze patterns in the data. The dashboard connects directly to the Google Sheets dataset through an automated update pipeline.
+A [Looker Studio dashboard](https://lookerstudio.google.com/u/0/reporting/615c97a0-c588-4914-9b2e-1f7a24c57422/page/p_oaa3vt8rxd) was developed to visualize and analyze patterns in the data. The dashboard connects directly to the Google Sheets dataset through an automated update pipeline.
 
 
 ## 🪜 Next Steps
