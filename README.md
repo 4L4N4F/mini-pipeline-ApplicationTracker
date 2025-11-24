@@ -18,8 +18,8 @@ Recent update: visualization moved from Looker Studio to a dashboard built direc
 | **Extract** | Job application data is collected via a Google Form. | Google Forms |
 | **Transform** | A Google Sheets workflow cleans, structures, and enriches the data using formulas and custom logic. | Google Sheets |
 | **Load** | A Google Apps Script updates the dataset automatically without overwriting existing records. | Google Apps Script |
-| **Visualize** | A fully interactive dashboard is now being built directly inside Google Sheets, ensuring instant updates and greater reliability. | Google Sheets (Charts, Pivot Tables, Slicers) |
-
+| **Visualize** | A fully interactive dashboard is now built directly inside Google Sheets, ensuring instant updates and greater reliability. | Google Sheets (Charts, Pivot Tables, Slicers) |
+| **Deploy** | The interactive dashboard is deployed via GitHub Pages, making it accessible with stable performance. | GitHub Pages |
 
 ## Tech Stack
 
@@ -39,7 +39,7 @@ Updates are automated through a Google Apps Script (`/scripts/update_dataset.gs`
 
 ## Dashboard & Analysis
 
-The previous Looker Studio dashboard has been replaced by an in-Sheets dashboard (under construction), which offers zero delay, no connector instability, and real-time updates as soon as new form entries arrive. This change significantly improves reliability and overall workflow performance.
+The previous Looker Studio dashboard has been replaced by an [in-Sheets dashboard](https://4l4n4f.github.io/mini-pipeline-ApplicationTracker/) published on GitHub Pages, which offers less delay and no connector instability. This change significantly improves reliability and overall workflow performance.
 
 
 ## Next Steps
