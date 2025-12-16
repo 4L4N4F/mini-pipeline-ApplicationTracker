@@ -1,3 +1,5 @@
+⚠️ THIS PROJECT WAS SHUT DOWN BECAUSE I GOT HIRED :) ⚠️
+
 A personal data project designed to track and analyze job applications. This project shows how everyday tools can be combined into a functional data pipeline (ETL) — proving that automation and analytics can be both simple and impactful.  
 
 
@@ -26,8 +28,7 @@ Recent update: visualization moved from Looker Studio to a dashboard built direc
 - **Google Forms** — data collection  
 - **Google Sheets** — data storage, cleaning, transformation and, dashboard
 - **Google Apps Script** — automatated updates
-- 
-
+  
 ## Data Source & Structure
 
 The dataset was built from real job postings anonymized to remove all personally identifiable or company-specific data. It is organized in the `/data` folder:  
